@@ -6,3 +6,5 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 info.setScore(0)
 info.startCountdown(10)
+scene.setBackgroundColor(8)
+game.splash("Click the buttons to score!")
